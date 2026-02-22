@@ -137,7 +137,8 @@
 }
 
 .nav-bar .navbar-light .navbar-brand img {
-    max-height: 50px;
+    max-height: 70px;
+    margin-right: 20px;
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
