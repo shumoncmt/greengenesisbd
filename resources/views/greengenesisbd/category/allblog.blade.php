@@ -3,16 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog </title>
-
-    @include('greengenesisbd.master.header')
+    <title>All Blog</title>'
+    @include ('greengenesisbd.master.header')
 </head>
 <body>
-   @include('greengenesisbd.master.slider')
-    
-
-
-        <!-- Blog Start -->
+    @include('greengenesisbd.master.slider')
+    <!-- Blog Start -->
         <div class="container-fluid blog py-5">
             <div class="container py-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
@@ -87,7 +83,7 @@
         </div>
         <!-- Blog End -->
 
-
-      @include('greengenesisbd.master.footer')
+    @include('greengenesisbd.master.footer')
+    
 </body>
 </html>

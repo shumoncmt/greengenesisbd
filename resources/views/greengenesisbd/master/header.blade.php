@@ -1,5 +1,6 @@
 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,7 +58,7 @@
                             <a class="btn p-0 text-primary me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                         <div class="dropdown ms-3">
-                            <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i
+                            <a href="#" class="dropdown-toggle text-dark" ><small><i
                                         class="fas fa-globe-europe text-primary me-2"></i> English</small></a>
                             <div class="dropdown-menu rounded">
                                 <a href="#" class="dropdown-item">English</a>
@@ -81,72 +82,131 @@
                 <a href="{{ route('home') }}" class="navbar-brand p-0">
                     <!--<h1 class="text-primary mb-0"><i class="fab fa-slack me-2"></i> LifeSure</h1> -->
                     <img src="assets/logo/greengenesisbd.png" alt="Logo"> 
-
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav mx-0 mx-lg-auto">
-                        <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
-                        <div class="nav-item dropdown">
-                            <a href="{{ route('about') }}" target="_blank" class="nav-item nav-link" data-bs-toggle="dropdown">
-                                <span class="dropdown-toggle nav-item nav-link " >About</span>
-                            </a>
-                            <div class="dropdown-menu">
-                                <a href="{{ route('feature') }}" class="dropdown-item">Company Profile</a>
-                                <a href="{{ route('team') }}" class="dropdown-item">Our team</a>
+                    <div class="navbar-nav mx-auto">
+                        <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a> 
+                        <div class="nav-item dropdown ">
+                        <a href="#" class="nav-link dropdown-toggle">About</a>
+                            <div class="dropdown-menu mt-4 border-0 shadow">
+                                <div class="container">
+                                            <a href="{{ route('about') }}" class="dropdown-item">About Us</a>
+                                            <a href="{{ route('testimonial') }}" class="dropdown-item">Testimonial</a>
+                                            <a href="{{ route('feature') }}" class="dropdown-item">Company Profile</a>
+                                            <a href="{{ route('team') }}" class="dropdown-item">Our Team</a>
+                                </div>
                             </div>
                         </div>
-                         <div class="nav-item dropdown">
-                            <a href="{{ route('home') }}" class="nav-link" data-bs-toggle="dropdown">
-                                <span class="dropdown-toggle">Products</span>
-                            </a>
-                            <div class="dropdown-menu">
-                                <a href="{{ route('feature') }}" class="dropdown-item">Our Features</a>
-                                <a href="{{ route('team') }}" class="dropdown-item">Our team</a>
-                                <a href="{{ route('testimonial') }}" class="dropdown-item">Testimonial</a>
-                                <a href="{{ route('faq') }}" class="dropdown-item">FAQs</a>
-                                <a href="{{ route('error') }}" class="dropdown-item">404 Page</a>
+                          <!--  add maga manu-->
+                                <div class="nav-item dropdown position-static">
+                                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> Products </a>
+                                        <div class="dropdown-menu w-100 mt-0 border-0 shadow">
+                                            <div class="container">
+                                                <div class="row py-4">
+                                                    <!-- Column 1 -->
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <h6 class="text-primary text-uppercase mb-3">Pump Solutions</h6>
+                                                        <a href="#" class="dropdown-item">Centrifugal Pump</a>
+                                                        <a href="#" class="dropdown-item">Booster Pump</a>
+                                                        <a href="#" class="dropdown-item">Submersible Pump</a>
+                                                        <a href="#" class="dropdown-item">Fire Pump</a>
+                                                    </div>
+
+                                                    <!-- Column 2 -->
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <h6 class="text-primary text-uppercase mb-3">Water Treatment</h6>
+                                                        <a href="#" class="dropdown-item">RO Plant</a>
+                                                        <a href="#" class="dropdown-item">ETP Plant</a>
+                                                        <a href="#" class="dropdown-item">Water Softener</a>
+                                                        <a href="#" class="dropdown-item">Filter System</a>
+                                                    </div>
+
+                                                    <!-- Column 3 -->
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <h6 class="text-primary text-uppercase mb-3">Industrial Equipment</h6>
+                                                        <a href="#" class="dropdown-item">Control Panel</a>
+                                                        <a href="#" class="dropdown-item">VFD Panel</a>
+                                                        <a href="#" class="dropdown-item">Generator</a>
+                                                        <a href="#" class="dropdown-item">Compressor</a>
+                                                    </div>
+
+                                                    <!-- Column 4 -->
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <h6 class="text-primary text-uppercase mb-3">Accessories</h6>
+                                                        <a href="#" class="dropdown-item">Valves</a>
+                                                        <a href="#" class="dropdown-item">Pipes</a>
+                                                        <a href="#" class="dropdown-item">Fittings</a>
+                                                        <a href="#" class="dropdown-item">Spare Parts</a>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                         <!--  End maga manu-->
+                        <div class="nav-item dropdown ">
+                        <a href="#" class="nav-link dropdown-toggle" target="_blank">Project </a>
+                            <div class="dropdown-menu mt-4 border-0 shadow">
+                                <div class="container">
+                                            <a href="{{ route('about') }}" class="dropdown-item">About Us</a>
+                                            <a href="{{ route('testimonial') }}" class="dropdown-item">Testimonial</a>
+                                            <a href="{{ route('feature') }}" class="dropdown-item">Company Profile</a>
+                                            <a href="{{ route('team') }}" class="dropdown-item">Our Team</a>
+                                </div>  
                             </div>
                         </div>
-                         <div class="nav-item dropdown">
-                            <a href="{{ route('home') }}" class="nav-link" data-bs-toggle="dropdown">
-                                <span class="dropdown-toggle">Project</span>
-                            </a>
-                            <div class="dropdown-menu">
-                                <a href="{{ route('feature') }}" class="dropdown-item">Our Features</a>
-                                <a href="{{ route('team') }}" class="dropdown-item">Our team</a>
-                                <a href="{{ route('testimonial') }}" class="dropdown-item">Testimonial</a>
-                                <a href="{{ route('faq') }}" class="dropdown-item">FAQs</a>
-                                <a href="{{ route('error') }}" class="dropdown-item">404 Page</a>
-                            </div>
-                        </div>
-                         <div class="nav-item dropdown">
-                            <a href="{{ route('home') }}" class="nav-link" data-bs-toggle="dropdown">
-                                <span class="dropdown-toggle">Industrial Sulotion</span>
-                            </a>
-                            <div class="dropdown-menu">
-                                <a href="{{ route('service') }}" class="dropdown-item">Services</a>
-                                <a href="{{ route('team') }}" class="dropdown-item">Our team</a>
-                                <a href="{{ route('blog') }}" class="dropdown-item">Blog</a>
-                                <a href="{{ route('faq') }}" class="dropdown-item">FAQs</a>
-                                <a href="{{ route('error') }}" class="dropdown-item">404 Page</a>
-                            </div>
-                        </div>
-                        <!--<div class="nav-item dropdown">
-                            <a href="{{ route('home') }}" class="nav-link" data-bs-toggle="dropdown">
-                                <span class="dropdown-toggle">Pages</span>
-                            </a>
-                            <div class="dropdown-menu">
-                                <a href="{{ route('feature') }}" class="dropdown-item">Our Features</a>
-                                <a href="{{ route('team') }}" class="dropdown-item">Our team</a>
-                                <a href="{{ route('testimonial') }}" class="dropdown-item">Testimonial</a>
-                                <a href="{{ route('faq') }}" class="dropdown-item">FAQs</a>
-                                <a href="{{ route('error') }}" class="dropdown-item">404 Page</a>
-                            </div>
-                          </div> -->
-                        <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
+                        <!--  add maga manu-->
+                                <div class="nav-item dropdown position-static">
+                                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> Industrial Solution</a>
+                                        <div class="dropdown-menu w-100 mt-0 border-0 shadow">
+                                            <div class="container">
+                                                <div class="row py-4">
+
+                                                    <!-- Column 1 -->
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <h6 class="text-primary text-uppercase mb-3">Pump Solutions</h6>
+                                                        <a href="#" class="dropdown-item">Centrifugal Pump</a>
+                                                        <a href="#" class="dropdown-item">Booster Pump</a>
+                                                        <a href="#" class="dropdown-item">Submersible Pump</a>
+                                                        <a href="#" class="dropdown-item">Fire Pump</a>
+                                                    </div>
+
+                                                    <!-- Column 2 -->
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <h6 class="text-primary text-uppercase mb-3">Water Treatment</h6>
+                                                        <a href="#" class="dropdown-item">RO Plant</a>
+                                                        <a href="#" class="dropdown-item">ETP Plant</a>
+                                                        <a href="#" class="dropdown-item">Water Softener</a>
+                                                        <a href="#" class="dropdown-item">Filter System</a>
+                                                    </div>
+
+                                                    <!-- Column 3 -->
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <h6 class="text-primary text-uppercase mb-3">Industrial Equipment</h6>
+                                                        <a href="#" class="dropdown-item">Control Panel</a>
+                                                        <a href="#" class="dropdown-item">VFD Panel</a>
+                                                        <a href="#" class="dropdown-item">Generator</a>
+                                                        <a href="#" class="dropdown-item">Compressor</a>
+                                                    </div>
+
+                                                    <!-- Column 4 -->
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <h6 class="text-primary text-uppercase mb-3">Accessories</h6>
+                                                        <a href="#" class="dropdown-item">Valves</a>
+                                                        <a href="#" class="dropdown-item">Pipes</a>
+                                                        <a href="#" class="dropdown-item">Fittings</a>
+                                                        <a href="#" class="dropdown-item">Spare Parts</a>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                         <!--  End maga manu-->
+                        <a href="{{ route('contact') }}" class="nav-item nav-link"  target="_blank">Contact</a>
                     </div>
                 </div>
                 <div class="d-none d-xl-flex flex-shrink-0 ps-4">
@@ -186,4 +246,7 @@
             </div>
         </div>
     </div>
+
+    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+
     <!-- Modal Search End -->

@@ -16,9 +16,6 @@ class PageController extends Controller
     public function project(){
         return View('greengenesisbd.page.project');
     }
-    public function blog(){
-        return View('greengenesisbd.page.blog');
-    }
     public function faq(){
         return View('greengenesisbd.page.faq');
     }
