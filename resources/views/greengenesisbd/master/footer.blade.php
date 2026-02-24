@@ -11,15 +11,15 @@
                                         <h4 class="text-white mb-4"> About Us</h4>
                                         <!-- <img src="img/logo.png" alt="Logo"> -->
                                     </a>
-                                    <p class="text-white mb-6">Green Genesis Engineering Ltd. is an Environmental Engineering and Trading Company that mainly specializes in trading consumer products, industrial & commercial contractual water treatment plant (WTP) solution, deep tube well setup by rig machine system (e.g. Garments, Textiles factories, Leather factories, Sugar mill etc.)</p>
+                                    <p class="text-white">Green Genesis Engineering Ltd. is an Environmental Engineering and Trading Company that mainly specializes in trading consumer products, industrial & commercial contractual water treatment plant (WTP) solution, deep tube well setup by rig machine system (e.g. Garments, Textiles factories, Leather factories, Sugar mill etc.)</p>
                                     <div class="footer-btn d-flex">
-                                        <a class="btn btn-md-square rounded-circle me-3" href="#"><i
+                                        <a class="btn btn-md-square rounded-circle me-3" href="https://www.facebook.com/greengenesisbd"><i
                                                 class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-md-square rounded-circle me-3" href="#"><i
-                                                class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-md-square rounded-circle me-3" href="#"><i
+                                        <a class="btn btn-md-square rounded-circle me-3" href="https://www.pinterest.com/GreenGenesisbd48/"><i
+                                                class="fab fa-pinterest"></i></a>
+                                        <a class="btn btn-md-square rounded-circle me-3" href="https://www.instagram.com/greengenesisbd/"><i
                                                 class="fab fa-instagram"></i></a>
-                                        <a class="btn btn-md-square rounded-circle me-0" href="#"><i
+                                        <a class="btn btn-md-square rounded-circle me-0" href="https://www.linkedin.com/company/greengenesis-bd/"><i
                                                 class="fab fa-linkedin-in"></i></a>
                                     </div>
                                 </div>
@@ -105,7 +105,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-xl-3">
                     <div class="footer-item">
                         <h4 class="text-white mb-4">Address</h4>

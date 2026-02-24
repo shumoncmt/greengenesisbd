@@ -89,8 +89,8 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav mx-auto">
                         <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a> 
-                        <div class="nav-item dropdown ">
-                        <a href="#" class="nav-link dropdown-toggle">About</a>
+                        <div class="nav-item dropdown">
+                          <a href="#" class="nav-link dropdown-toggle">About</a>
                             <div class="dropdown-menu mt-4 border-0 shadow">
                                 <div class="container">
                                             <a href="{{ route('about') }}" class="dropdown-item">About Us</a>
@@ -108,104 +108,100 @@
                                                 <div class="row py-4">
                                                     <!-- Column 1 -->
                                                     <div class="col-lg-3 col-md-6">
-                                                        <h6 class="text-primary text-uppercase mb-3">Pump Solutions</h6>
-                                                        <a href="#" class="dropdown-item">Centrifugal Pump</a>
-                                                        <a href="#" class="dropdown-item">Booster Pump</a>
-                                                        <a href="#" class="dropdown-item">Submersible Pump</a>
-                                                        <a href="#" class="dropdown-item">Fire Pump</a>
+                                                        <h6 class="text-primary text-uppercase mb-3">Industrial Pump</h6>
+                                                        <ul>
+                                                            <li><a href="#" class="dropdown-item">Dynamic Pump</a></li>
+                                                            <li><a href="#" class="dropdown-item">Wilo Pump</a></li>
+                                                            <li><a href="#" class="dropdown-item">Seko Dosing Pump</a></li>
+                                                            <li><a href="#" class="dropdown-item">Grampus Pump</a></li>
+                                                            <li><a href="#" class="dropdown-item">ARO Pump</a></li>
+                                                        </ul>
+                                                        <h6 class="text-primary text-uppercase">Industrial Motor</h6>
+                                                        <ul>
+                                                            <li><a href="#" class="dropdown-item">Single Phase Motor</a></li>
+                                                            <li><a href="#" class="dropdown-item">Three Phase Motor</a></li>
+                                                        </ul>
                                                     </div>
-
                                                     <!-- Column 2 -->
                                                     <div class="col-lg-3 col-md-6">
-                                                        <h6 class="text-primary text-uppercase mb-3">Water Treatment</h6>
-                                                        <a href="#" class="dropdown-item">RO Plant</a>
-                                                        <a href="#" class="dropdown-item">ETP Plant</a>
-                                                        <a href="#" class="dropdown-item">Water Softener</a>
-                                                        <a href="#" class="dropdown-item">Filter System</a>
+                                                        <h6 class="text-primary text-uppercase mb-3">Blower & Diffuser</h6>
+                                                        <ul>
+                                                            <li><a href="#" class="dropdown-item">Roots Blower</a></li>
+                                                            <li><a href="#" class="dropdown-item">Vacuum Roots Blower</a></li>
+                                                            <li><a href="#" class="dropdown-item">Ring Blower</a></li>
+                                                            <li><a href="#" class="dropdown-item">Disc Diffuser</a></li>
+                                                            <li><a href="#" class="dropdown-item">Tube Diffuser</a></li>
+                                                            <li><a href="#" class="dropdown-item">Mounting Saddle</a></li>
+                                                        </ul>
+                                                        <h6 class="text-primary text-uppercase mb-3">Flow Meter</h6>
+                                                         <ul>
+                                                            <li><a href="#" class="dropdown-item">Electromagnetic Flow Meter</a></li>
+                                                        </ul>
                                                     </div>
-
                                                     <!-- Column 3 -->
                                                     <div class="col-lg-3 col-md-6">
-                                                        <h6 class="text-primary text-uppercase mb-3">Industrial Equipment</h6>
-                                                        <a href="#" class="dropdown-item">Control Panel</a>
-                                                        <a href="#" class="dropdown-item">VFD Panel</a>
-                                                        <a href="#" class="dropdown-item">Generator</a>
-                                                        <a href="#" class="dropdown-item">Compressor</a>
+                                                        <h6 class="text-primary text-uppercase mb-3">Water Treatment Chemicals & Media</h6>
+                                                        <ul>
+                                                            <li><a href="#" class="dropdown-item">Filtration Media</a></li>
+                                                            <li><a href="#" class="dropdown-item">Ion Exchange Resin</a></li>  
+                                                            <li><a href="#" class="dropdown-item">Activated Carbon</a></li>
+                                                            <li><a href="#" class="dropdown-item">Reverse Osmosis Chemicals</a></li>
+                                                        </ul>
+                                                        <h6 class="text-primary text-uppercase mb-3">RO and UF Membrane</h6>
+                                                        <ul>
+                                                            <li><a href="#" class="dropdown-item">Reverse Osmosis</a></li>
+                                                            <li><a href="#" class="dropdown-item">Ultrafiltration</a></li>
+                                                            <li><a href="#" class="dropdown-item">Swimming Pool Solution</a></li>
+                                                        </ul>  
                                                     </div>
-
                                                     <!-- Column 4 -->
                                                     <div class="col-lg-3 col-md-6">
-                                                        <h6 class="text-primary text-uppercase mb-3">Accessories</h6>
-                                                        <a href="#" class="dropdown-item">Valves</a>
-                                                        <a href="#" class="dropdown-item">Pipes</a>
-                                                        <a href="#" class="dropdown-item">Fittings</a>
-                                                        <a href="#" class="dropdown-item">Spare Parts</a>
+                                                        <h6 class="text-primary text-uppercase mb-3">Water Treatment Accessories</h6>
+                                                        <ul>
+                                                            <li><a href="#" class="dropdown-item">Ionpure</a></li>
+                                                            <li><a href="#" class="dropdown-item">Ozone Generator</a></li>
+                                                            <li><a href="#" class="dropdown-item">Household Machine</a></li>
+                                                            <li><a href="#" class="dropdown-item">Rostfrei Tanks</a></li>
+                                                            <li><a href="#" class="dropdown-item">MBR Module</a></li>
+                                                            <li><a href="#" class="dropdown-item">Evoqua</a></li>
+                                                        </ul>
                                                     </div>
-
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                          <!--  End maga manu-->
                         <div class="nav-item dropdown ">
-                        <a href="#" class="nav-link dropdown-toggle" target="_blank">Project </a>
+                        <a href="#" class="nav-link dropdown-toggle">Project </a>
                             <div class="dropdown-menu mt-4 border-0 shadow">
                                 <div class="container">
-                                            <a href="{{ route('about') }}" class="dropdown-item">About Us</a>
-                                            <a href="{{ route('testimonial') }}" class="dropdown-item">Testimonial</a>
-                                            <a href="{{ route('feature') }}" class="dropdown-item">Company Profile</a>
-                                            <a href="{{ route('team') }}" class="dropdown-item">Our Team</a>
+                                            <a href="{{ route('about') }}" class="dropdown-item">Ongoing Project</a>
+                                            <a href="{{ route('project') }}" class="dropdown-item">Complete Project</a>
                                 </div>  
                             </div>
                         </div>
                         <!--  add maga manu-->
-                                <div class="nav-item dropdown position-static">
-                                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> Industrial Solution</a>
-                                        <div class="dropdown-menu w-100 mt-0 border-0 shadow">
-                                            <div class="container">
-                                                <div class="row py-4">
+                      <div class="nav-item dropdown ">
+                        <a href="#" class="nav-link dropdown-toggle">Industrial Solution </a>
+                            <div class="dropdown-menu">
+                                <div class="container">
+                                    <ul>
+                                        <li><a href="{{ route('about') }}" class="dropdown-item">ETP Plant</a></li>
+                                        <li><a href="{{ route('testimonial') }}" class="dropdown-item">STP Plant</a></li>
+                                        <li><a href="{{ route('testimonial') }}" class="dropdown-item">WTP Plant</a></li>
+                                        <li><a href="{{ route('testimonial') }}" class="dropdown-item">WWTP Plant</a></li>
+                                        <li> <a href="{{ route('testimonial') }}" class="dropdown-item">Iron Removal Plant</a></li>
+                                        <li><a href="{{ route('testimonial') }}" class="dropdown-item">RO Water Plant</a></li>
+                                        <li><a href="{{ route('testimonial') }}" class="dropdown-item">Water Softener Plant in Bangladesh</a></li>
+                                        <li><a href="{{ route('testimonial') }}" class="dropdown-item">Surface Water Treatment Plant</a></li>
+                                        <li><a href="{{ route('testimonial') }}" class="dropdown-item">Rain Water Harvesting</a></li>
+                                        <li><a href="{{ route('testimonial') }}" class="dropdown-item">Bioflok</a></li>
+                                    </ul>       
+                                </div>  
+                            </div>
+                      </div>
 
-                                                    <!-- Column 1 -->
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <h6 class="text-primary text-uppercase mb-3">Pump Solutions</h6>
-                                                        <a href="#" class="dropdown-item">Centrifugal Pump</a>
-                                                        <a href="#" class="dropdown-item">Booster Pump</a>
-                                                        <a href="#" class="dropdown-item">Submersible Pump</a>
-                                                        <a href="#" class="dropdown-item">Fire Pump</a>
-                                                    </div>
-
-                                                    <!-- Column 2 -->
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <h6 class="text-primary text-uppercase mb-3">Water Treatment</h6>
-                                                        <a href="#" class="dropdown-item">RO Plant</a>
-                                                        <a href="#" class="dropdown-item">ETP Plant</a>
-                                                        <a href="#" class="dropdown-item">Water Softener</a>
-                                                        <a href="#" class="dropdown-item">Filter System</a>
-                                                    </div>
-
-                                                    <!-- Column 3 -->
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <h6 class="text-primary text-uppercase mb-3">Industrial Equipment</h6>
-                                                        <a href="#" class="dropdown-item">Control Panel</a>
-                                                        <a href="#" class="dropdown-item">VFD Panel</a>
-                                                        <a href="#" class="dropdown-item">Generator</a>
-                                                        <a href="#" class="dropdown-item">Compressor</a>
-                                                    </div>
-
-                                                    <!-- Column 4 -->
-                                                    <div class="col-lg-3 col-md-6">
-                                                        <h6 class="text-primary text-uppercase mb-3">Accessories</h6>
-                                                        <a href="#" class="dropdown-item">Valves</a>
-                                                        <a href="#" class="dropdown-item">Pipes</a>
-                                                        <a href="#" class="dropdown-item">Fittings</a>
-                                                        <a href="#" class="dropdown-item">Spare Parts</a>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                         <!--  End maga manu-->
+                 <!--  End maga manu-->
                         <a href="{{ route('contact') }}" class="nav-item nav-link"  target="_blank">Contact</a>
                     </div>
                 </div>
@@ -219,7 +215,7 @@
                     </a>
                     <div class="d-flex flex-column ms-3">
                         <span>Call to Our Experts</span>
-                        <a href="tel:+8801898777647"><span class="text-dark">Free: +880 1898777647</span></a>
+                        <a href="tel:+8801898777647"><span class="text-dark">+880 1898777647</span></a>
                     </div>
                 </div>
             </nav>
@@ -239,8 +235,7 @@
                     <div class="input-group w-75 mx-auto d-flex">
                         <input type="search" class="form-control p-3" placeholder="keywords"
                             aria-describedby="search-icon-1">
-                        <span id="search-icon-1" class="btn bg-light border nput-group-text p-3"><i
-                                class="fa fa-search"></i></span>
+                        <span id="search-icon-1" class="btn bg-light border nput-group-text p-3"><i class="fa fa-search"></i></span>
                     </div>
                 </div>
             </div>

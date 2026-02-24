@@ -38,3 +38,4 @@ class PageController extends Controller
         return View('greengenesisbd.page.error');
     }
 }
+

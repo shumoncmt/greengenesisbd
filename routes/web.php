@@ -14,6 +14,7 @@ Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::get('/faq', [PageController::class, 'faq'])->name('faq');
 Route::get('/feature', [PageController::class, 'feature'])->name('feature');
 Route::get('/testimonial', [PageController::class, 'testimonial'])->name('testimonial');
+Route::get('/project', [PageController::class, 'project'])->name('project');
 Route::get('/team', [PageController::class, 'team'])->name('team');
 Route::get('/service', [PageController::class, 'service'])->name('service');
 Route::get('/about', [PageController::class, 'about'])->name('about');
