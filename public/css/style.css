@@ -935,7 +935,7 @@
     }
 
     .navbar .dropdown:hover .dropdown-menu {
-        display: block;
+        display:block;
         margin-top: 0;
     }
 }
@@ -958,5 +958,9 @@
         width: 100%;
         margin-bottom: 15px;
     }
+}
+/* custom dropdown menu style */
+.menu1 {
+    min-width: 10rem !important;
 }
 

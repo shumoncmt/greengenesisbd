@@ -21,4 +21,9 @@ class CategoryController extends Controller
     function industrialsolution(){
         return view('greengenesisbd.category.industrialsolution');
     }
+    function diffusers(){
+        return view('greengenesisbd.category.diffusers');
+    }
+
+
 }

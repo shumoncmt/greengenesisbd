@@ -90,8 +90,8 @@
                     <div class="navbar-nav mx-auto">
                         <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a> 
                         <div class="nav-item dropdown">
-                          <a href="#" class="nav-link dropdown-toggle">About</a>
-                            <div class="dropdown-menu mt-4 border-0 shadow">
+                          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                            <div class="dropdown-menu menu1 mt-4 border-0 shadow">
                                 <div class="container">
                                             <a href="{{ route('about') }}" class="dropdown-item">About Us</a>
                                             <a href="{{ route('testimonial') }}" class="dropdown-item">Testimonial</a>
@@ -172,20 +172,20 @@
                                     </div>
                          <!--  End maga manu-->
                         <div class="nav-item dropdown ">
-                        <a href="#" class="nav-link dropdown-toggle">Project </a>
-                            <div class="dropdown-menu mt-4 border-0 shadow">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Project </a>
+                            <div class="dropdown-menu menu1 mt-4 border-0 shadow">
                                 <div class="container">
                                             <a href="{{ route('about') }}" class="dropdown-item">Ongoing Project</a>
                                             <a href="{{ route('project') }}" class="dropdown-item">Complete Project</a>
                                 </div>  
                             </div>
                         </div>
-                        <!--  add maga manu-->
-                      <div class="nav-item dropdown ">
-                        <a href="#" class="nav-link dropdown-toggle">Industrial Solution </a>
-                            <div class="dropdown-menu">
+                    <!--  add maga manu-->
+                      <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Industrial Solution </a>
+                            <div class="dropdown-menu mt-4 border-0 shadow">
                                 <div class="container">
-                                    <ul>
+                                    <div class="row">
                                         <li><a href="{{ route('about') }}" class="dropdown-item">ETP Plant</a></li>
                                         <li><a href="{{ route('testimonial') }}" class="dropdown-item">STP Plant</a></li>
                                         <li><a href="{{ route('testimonial') }}" class="dropdown-item">WTP Plant</a></li>
@@ -196,7 +196,7 @@
                                         <li><a href="{{ route('testimonial') }}" class="dropdown-item">Surface Water Treatment Plant</a></li>
                                         <li><a href="{{ route('testimonial') }}" class="dropdown-item">Rain Water Harvesting</a></li>
                                         <li><a href="{{ route('testimonial') }}" class="dropdown-item">Bioflok</a></li>
-                                    </ul>       
+                                    </div>
                                 </div>  
                             </div>
                       </div>

@@ -28,3 +28,4 @@ Route::get('/all-product', [CategoryController::class, 'allproduct'])->name('all
 Route::get('/all-blog', [CategoryController::class, 'allblog'])->name('allblog');
 Route::get('/all-project', [CategoryController::class, 'allproject'])->name('allproject');
 Route::get('/industrial-solution', [CategoryController::class, 'industrialsolution'])->name('industrialsolution');
+Route::get('/categorie/diffuser', [CategoryController::class, 'diffusers'])->name('diffusers');
