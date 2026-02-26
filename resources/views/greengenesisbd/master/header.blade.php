@@ -175,8 +175,8 @@
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Project </a>
                             <div class="dropdown-menu menu1 mt-4 border-0 shadow">
                                 <div class="container">
-                                            <a href="{{ route('about') }}" class="dropdown-item">Ongoing Project</a>
-                                            <a href="{{ route('project') }}" class="dropdown-item">Complete Project</a>
+                                            <a href="{{ route('ongoingproject') }}" class="dropdown-item">Ongoing Project</a>
+                                            <a href="{{ route('completedproject') }}" class="dropdown-item">Complete Project</a>
                                 </div>  
                             </div>
                         </div>

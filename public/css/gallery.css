@@ -1,0 +1,174 @@
+.cd__main{
+    background: #fff;
+    padding: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.cd__main{
+        display: flex;
+        width: 100%;
+}
+
+@media only screen and (min-width: 1360px){
+    .cd__main{
+        max-width: 1280px;
+        margin-left: auto;
+        margin-right: auto; 
+        padding: 24px;
+    }
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+    /* max-width: 100%;
+    height: auto; */
+    width: 330px;
+    height: 319px;
+}
+
+
+.wrap {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+
+
+.gallery-wrap,
+#gallery {
+    overflow: hidden;
+    margin: 1px;
+}
+
+#filters {
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+    overflow: hidden;
+}
+
+#filters li {
+    float: left;
+}
+
+#filters li span {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all ease-in-out 0.25s;
+}
+
+#filters li:hover span {
+    color: #000;
+}
+
+#filters li span.active {
+    background: #6da5b6;
+    color: #5e5454;
+}
+
+.gallery-item {
+    margin: 10px;
+    float: left;
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    position: relative;
+    z-index: 10;
+    display: none;
+}
+
+.inside {
+position: relative;
+overflow: hidden;
+width: 100%;
+height: 100%;
+}
+
+.details,
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+opacity: 0;
+}
+
+.details {
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 2;
+transition: all 0.3s ease-in-out;
+}
+.details h4 {
+color: #fff;
+font-size: 1.3em;
+font-weight: 400;
+letter-spacing: 1px;
+text-align: center;
+margin: 0;
+padding: 2px;
+font-family:"Muli";
+}
+.details p {
+color: #fff;
+font-size: 1em;
+letter-spacing: 1px;
+text-align: center;
+margin: 0;
+font-family:"Muli";
+}
+.inside img {
+float: left;
+width: 100%;
+}
+.overlay {
+background: rgba(88, 182, 207, 0.8);
+z-index: 1;
+transition: all 0.7s ease-in-out;
+}
+.gallery-item:hover .details,
+.gallery-item:hover .overlay {
+opacity: 1;
+}
+
+@media (max-width: 30em) {
+.wrap {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.gallery-item {
+    float: none;
+    width: 100%;
+}
+}
+.abs{
+    font-family:"Muli";
+    font-weight: bold;
+ 
+}
+h6{
+            text-align: center;
+            text-decoration: none;
+            color: #353131 !important;
+        }
+     
+a:link{
+    text-decoration: none;
+}
+

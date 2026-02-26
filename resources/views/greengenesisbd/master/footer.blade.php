@@ -154,8 +154,32 @@
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
+  
+ <script>
+        $(function () { 
+    var filterList = {
+    init: function () {
+        // https://mixitup.kunkalabs.com/
+        $('#gallery').mixItUp({
+        selectors: {
+            target: '.gallery-item',
+            filter: '.filter'	
+        },
+        load: {
+            filter: '.Ongoing, .Complete' // show all items on page load.
+        }     
+        });								
+    }
+    };
+    // Filter ALL the things
+    filterList.init();
+   });
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js'></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
 
 

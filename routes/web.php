@@ -29,3 +29,9 @@ Route::get('/all-blog', [CategoryController::class, 'allblog'])->name('allblog')
 Route::get('/all-project', [CategoryController::class, 'allproject'])->name('allproject');
 Route::get('/industrial-solution', [CategoryController::class, 'industrialsolution'])->name('industrialsolution');
 Route::get('/categorie/diffuser', [CategoryController::class, 'diffusers'])->name('diffusers');
+
+
+/// Web Routes Project
+Route::get('/all-project', [ProjectController::class, 'allproject'])->name('allproject');
+Route::get('/ongoing-project', [ProjectController::class, 'ongoingproject'])->name('ongoingproject');
+Route::get('/completed-project', [ProjectController::class, 'completedproject'])->name('completedproject');
